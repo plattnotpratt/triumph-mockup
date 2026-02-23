@@ -1,28 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 * {
-  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
 
-#hero {
-  background-image: url("../assets/ hero-slider.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  max-width: 98vw;
-  border-radius: 60px;
+body {
+  margin: 0 !important;
+  padding: 0 !important;
 }
-#hero nav#main {
+body h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 900;
+  font-size: 4.25rem;
+}
+
+nav#main {
   background-color: rgba(148, 148, 148, 0.34);
   border-radius: 40px;
   height: 60px;
   border: 1px solid rgba(184, 184, 184, 0.5);
 }
-#hero nav#main ul li a {
+nav#main ul li a {
   color: #fff;
+  font-size: 12px;
+}
+nav#main button {
+  font-size: 12px;
+}
+nav#main a {
+  font-size: 12px;
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  width: 40px;
+  height: 40px;
   aspect-ratio: 1/1;
 }
 
@@ -30,17 +40,44 @@
   color: #fff;
   text-transform: uppercase;
   margin-left: 15px;
-  margin-top: 5px;
 }
 .word-mark .logo-top-text {
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
-  line-height: 30px;
+  line-height: 20px;
 }
 .word-mark .logo-bottom-text {
   font-size: 20px;
   font-weight: 100;
   line-height: 20px;
+}
+
+#hero {
+  box-sizing: border-box;
+  background-image: url("../assets/bg/mens-confrence-2024.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 48px;
+  margin: 1% auto !important;
+  width: 98%;
+  color: #fff;
+}
+#hero #hero-title h1,
+#hero #hero-title h4 {
+  color: #fff;
+}
+#hero #count-down {
+  bottom: 10%;
+}
+
+#welcome-jesus-image {
+  aspect-ratio: 256/77;
+  width: 100%;
+  background-image: url(../assets/bg/jesus-carrying-cross.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 24px;
 }
 
 /*# sourceMappingURL=main.css.map */
