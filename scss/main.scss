@@ -236,3 +236,44 @@ nav#main {
 .grey-text {
   color: #ccc;
 }
+
+.volunteer-card {
+  padding: 0 !important;
+  margin: 0 !important;
+
+  .card-image {
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+  }
+
+  #prayer-care.card-image {
+    background-image: url(../assets/prayer-care.png);
+  }
+
+  #kids {
+    background-image: url(../assets/prayer-care.png);
+  }
+
+  #students {
+    background-image: url(../assets/prayer-care.png);
+  }
+
+  #worship {
+    background-image: url(../assets/prayer-care.png)
+  }
+
+  #men {
+    background-image: url(../assets/prayer-care.png)
+  }
+
+  #women {
+    background-image: url(../assets/prayer-care.png)
+  }
+
+  #small-groups {
+    background-image: url(../assets/prayer-care.png)
+  }
+}
