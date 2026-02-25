@@ -31,9 +31,9 @@ nav#main a {
 }
 
 .logo {
-  width: 40px;
+  width: auto;
   height: 40px;
-  aspect-ratio: 1/1;
+  aspect-ratio: 32/27;
 }
 
 .word-mark {
@@ -195,6 +195,10 @@ nav#main a {
   right: 0;
 }
 
+.brown-text {
+  color: #2E2320;
+}
+
 .orange-text {
   color: #ed4b1e;
 }
@@ -204,8 +208,45 @@ nav#main a {
 }
 
 .volunteer-card {
-  width: 240px;
-  height: 450px;
+  width: 14.2857142857vw;
+}
+.volunteer-card .volunteer-card-image {
+  width: 100%;
+  height: 425px;
+  background-position: center;
+  background-size: cover;
+  border-radius: 16px;
+}
+.volunteer-card #prayer-care {
+  background-image: url(../assets/prayer-care.png);
+}
+.volunteer-card #kids {
+  background-image: url(../assets/kids.png);
+}
+.volunteer-card #students {
+  background-image: url(../assets/students.png);
+}
+.volunteer-card #worship {
+  background-image: url(../assets/worship.png);
+}
+.volunteer-card #men {
+  background-image: url(../assets/men.png);
+}
+.volunteer-card #women {
+  background-image: url(../assets/women.png);
+}
+.volunteer-card #small-groups {
+  background-image: url(../assets/small-groups.png);
+}
+
+#saved {
+  margin: 0 auto 1% !important;
+  width: 98%;
+}
+#saved .saved-bg {
+  border-radius: 48px;
+  background-color: #2E2320;
+  color: #fff;
 }
 
 /*# sourceMappingURL=main.css.map */
