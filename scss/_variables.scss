@@ -1,0 +1,13 @@
+$brand-colors: (
+  "brand": #ed4b1e,
+  "brown": #2e2320,
+  "grey": #626264,
+  "lightish-grey": #a1a9b1,
+  "light-brown": #746064,
+  "white": #FBFBFB,
+  "light-grey": #ababab,
+  "dark-blue": #001D3A,
+  "transparent": rgba(0, 0, 0, 0),
+);
+
+$theme-colors: map-merge($theme-colors, $brand-colors);
