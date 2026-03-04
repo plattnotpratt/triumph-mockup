@@ -12973,6 +12973,60 @@ footer#main a {
   color: #2e2320;
 }
 
+body {
+  overflow-x: hidden !important;
+  width: 99.5vw !important;
+}
+
+.texture-right {
+  position: absolute;
+  top: 2800px;
+  right: -200px;
+  width: 600px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+.texture-right .texture-image {
+  opacity: 0.25;
+  background-blend-mode: exclusion;
+  background-color: #fff;
+  background-image: url("../assets/bg/texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.texture-right .texture-image .texture-gradient {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
+.texture-left {
+  position: absolute;
+  z-index: -1;
+  top: 3500px;
+  left: -200px;
+  width: 600px;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+}
+.texture-left .texture-image {
+  opacity: 0.25;
+  background-blend-mode: exclusion;
+  background-color: #fff;
+  background-image: url("../assets/bg/texture.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+.texture-left .texture-image .texture-gradient {
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgb(255, 255, 255) 100%);
+}
+
 @media (max-width: 991.98px) {
   nav#main {
     background-color: rgba(0, 0, 0, 0);

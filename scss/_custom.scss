@@ -4,388 +4,448 @@
  $text-style: "Inter", sans-serif;
 
  * {
-   font-family: $text-style;
+ 	font-family: $text-style;
  }
 
  body {
 
-   margin: 0 !important;
-   padding: 0 !important;
+ 	margin: 0 !important;
+ 	padding: 0 !important;
 
 
-   h1 {
-     font-family: $text-style;
-     font-weight: 900;
-     font-size: 4.25rem;
-   }
+ 	h1 {
+ 		font-family: $text-style;
+ 		font-weight: 900;
+ 		font-size: 4.25rem;
+ 	}
  }
 
  nav#main {
-   background-color: rgba(148, 148, 148, 0.34);
-   border-radius: 40px;
+ 	background-color: rgba(148, 148, 148, 0.34);
+ 	border-radius: 40px;
 
-   border: 1px solid rgba(184, 184, 184, 0.50);
+ 	border: 1px solid rgba(184, 184, 184, 0.50);
 
-   ul li a {
-     color: #fff;
-     font-size: $nav-font-size
-   }
+ 	ul li a {
+ 		color: #fff;
+ 		font-size: $nav-font-size
+ 	}
 
-   button {
-     font-size: $nav-font-size;
-   }
+ 	button {
+ 		font-size: $nav-font-size;
+ 	}
 
-   a {
-     font-size: $nav-font-size;
-   }
+ 	a {
+ 		font-size: $nav-font-size;
+ 	}
 
-   .navbar-toggler {
-     padding-top: 0.7rem !important;
-     padding-bottom: 0.7rem !important;
-   }
+ 	.navbar-toggler {
+ 		padding-top: 0.7rem !important;
+ 		padding-bottom: 0.7rem !important;
+ 	}
  }
 
  .logo {
-   width: auto;
-   height: 40px;
-   aspect-ratio: 32/27;
+ 	width: auto;
+ 	height: 40px;
+ 	aspect-ratio: 32/27;
  }
 
  .word-mark {
-   color: #fff;
-   text-transform: uppercase;
-   margin-left: 15px;
-   // margin-top: 5px;
+ 	color: #fff;
+ 	text-transform: uppercase;
+ 	margin-left: 15px;
+ 	// margin-top: 5px;
 
-   .logo-top-text {
-     font-size: $logo-font-size;
-     font-weight: bolder;
-     line-height: $logo-font-size;
-   }
+ 	.logo-top-text {
+ 		font-size: $logo-font-size;
+ 		font-weight: bolder;
+ 		line-height: $logo-font-size;
+ 	}
 
-   .logo-bottom-text {
-     font-size: $logo-font-size;
-     font-weight: 100;
-     line-height: $logo-font-size;
-   }
+ 	.logo-bottom-text {
+ 		font-size: $logo-font-size;
+ 		font-weight: 100;
+ 		line-height: $logo-font-size;
+ 	}
  }
 
  #countdown-social {
-   padding-bottom: 30px;
+ 	padding-bottom: 30px;
  }
 
  // HERO Slider
  #hero {
-   box-sizing: border-box;
-   background-image: url("../assets/bg/mens-confrence-2024.jpg");
-   background-repeat: no-repeat;
-   background-size: cover;
-   border-radius: 48px;
-   margin: 1% auto !important;
-   width: 98%;
-   color: $nutral-font;
+ 	box-sizing: border-box;
+ 	background-image: url("../assets/bg/mens-confrence-2024.jpg");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	border-radius: 48px;
+ 	margin: 1% auto !important;
+ 	width: 98%;
+ 	color: $nutral-font;
 
 
 
-   #hero-title {
+ 	#hero-title {
 
-     h1,
-     h4 {
-       color: $nutral-font;
-     }
-   }
+ 		h1,
+ 		h4 {
+ 			color: $nutral-font;
+ 		}
+ 	}
 
-   #count-down {
-     bottom: 10%;
-   }
+ 	#count-down {
+ 		bottom: 10%;
+ 	}
  }
 
  #welcome-jesus-image {
-   aspect-ratio: 256/77;
-   width: 100%;
-   background-image: url(../assets/bg/jesus-carrying-cross.png);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   border-radius: 24px;
+ 	aspect-ratio: 256/77;
+ 	width: 100%;
+ 	background-image: url(../assets/bg/jesus-carrying-cross.png);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	border-radius: 24px;
  }
 
  #our-mission .bg {
-   background-image: url(../assets/bg/orange-background.jpg);
-   filter: grayscale(30%);
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   background-blend-mode: hard-light;
-   opacity: 0.2;
-   width: 100%;
-   height: 100%;
-   position: absolute;
-   top: 0;
-   left: 0;
-   z-index: 0;
-   padding: 0;
+ 	background-image: url(../assets/bg/orange-background.jpg);
+ 	filter: grayscale(30%);
+ 	background-position: center;
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	background-blend-mode: hard-light;
+ 	opacity: 0.2;
+ 	width: 100%;
+ 	height: 100%;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	z-index: 0;
+ 	padding: 0;
  }
 
  #our-mission {
-   color: #fff;
-   background-color: #ed4b1e;
-   border-radius: 48px;
-   overflow: hidden;
-   margin: 0 auto 1% !important;
-   width: 98%;
-   opacity: 1;
+ 	color: #fff;
+ 	background-color: #ed4b1e;
+ 	border-radius: 48px;
+ 	overflow: hidden;
+ 	margin: 0 auto 1% !important;
+ 	width: 98%;
+ 	opacity: 1;
 
-   z-index: 1;
+ 	z-index: 1;
 
-   .row {
-     position: relative;
-     z-index: 3;
+ 	.row {
+ 		position: relative;
+ 		z-index: 3;
 
-     .card {
-       color: #000;
-       border-radius: 24px;
+ 		.card {
+ 			color: #000;
+ 			border-radius: 24px;
 
-       .card-body a {
-         color: #ed4b1e;
-       }
-     }
+ 			.card-body a {
+ 				color: #ed4b1e;
+ 			}
+ 		}
 
-     .bg-jesus-teaching {
-       background-image: url('../assets/jesus-teaching.png');
-       background-position: 50% 60%;
-       background-repeat: no-repeat;
-       background-size: cover;
-       aspect-ratio: 256/93;
-       width: 100%;
-       overflow: hidden;
-       border-radius: 24px 24px 0 0
-     }
-   }
+ 		.bg-jesus-teaching {
+ 			background-image: url('../assets/jesus-teaching.png');
+ 			background-position: 50% 60%;
+ 			background-repeat: no-repeat;
+ 			background-size: cover;
+ 			aspect-ratio: 256/93;
+ 			width: 100%;
+ 			overflow: hidden;
+ 			border-radius: 24px 24px 0 0
+ 		}
+ 	}
  }
 
  .arrow-down {
-   background-image: url("../assets/curve.png");
-   background-repeat: no-repeat;
-   width: 138px;
-   height: 35px;
+ 	background-image: url("../assets/curve.png");
+ 	background-repeat: no-repeat;
+ 	width: 138px;
+ 	height: 35px;
  }
 
  .bg-wrapper {
-   overflow: hidden;
-   position: relative;
-   width: 830px;
-   aspect-ratio: 1/1;
-   transform: rotate(90deg);
+ 	overflow: hidden;
+ 	position: relative;
+ 	width: 830px;
+ 	aspect-ratio: 1/1;
+ 	transform: rotate(90deg);
 
-   .styalized-bg {
-     background-image: url("../assets/bg/texture.jpg");
-     background-repeat: no-repeat;
-     background-blend-mode: exclusion;
-     background-color: #fff;
-     opacity: 0.25;
-     z-index: 0;
-     width: 100%;
-     height: 100%;
-     background-size: cover;
+ 	.styalized-bg {
+ 		background-image: url("../assets/bg/texture.jpg");
+ 		background-repeat: no-repeat;
+ 		background-blend-mode: exclusion;
+ 		background-color: #fff;
+ 		opacity: 0.25;
+ 		z-index: 0;
+ 		width: 100%;
+ 		height: 100%;
+ 		background-size: cover;
 
-     .gradient {
-       background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
-       width: 100%;
-       height: 100%;
-     }
-   }
+ 		.gradient {
+ 			background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 75%);
+ 			width: 100%;
+ 			height: 100%;
+ 		}
+ 	}
  }
 
  #cta #messaging {
-   font-size: 3rem;
-   margin-top: 140px;
+ 	font-size: 3rem;
+ 	margin-top: 140px;
  }
 
  #flare-1 {
-   overflow-x: hidden !important;
-   height: 400px;
-   position: absolute;
-   top: -415px;
-   left: 65%;
-   overflow: hidden;
+ 	overflow-x: hidden !important;
+ 	height: 400px;
+ 	position: absolute;
+ 	top: -415px;
+ 	left: 65%;
+ 	overflow: hidden;
 
-   .bg-wrapper {}
+ 	.bg-wrapper {}
  }
 
 
  #flare-2 {
-   .bg-wrapper {
-     top: 0px;
-     left: -20%;
-   }
+ 	.bg-wrapper {
+ 		top: 0px;
+ 		left: -20%;
+ 	}
  }
 
  .line {
-   position: absolute;
-   width: 40px;
-   height: 3px;
-   background-color: #000;
+ 	position: absolute;
+ 	width: 40px;
+ 	height: 3px;
+ 	background-color: #000;
  }
 
  #line-1 {
-   top: 70px;
+ 	top: 70px;
  }
 
  #line-2 {
-   bottom: -70px;
-   transform: rotate(90deg);
-   right: 0;
+ 	bottom: -70px;
+ 	transform: rotate(90deg);
+ 	right: 0;
  }
 
  .brown-text {
-   color: map.get($brand-colors, "brown");
+ 	color: map.get($brand-colors, "brown");
  }
 
  .orange-text {
-   color: map.get($brand-colors, "brand");
+ 	color: map.get($brand-colors, "brand");
  }
 
  .grey-text {
-   color: map.get($brand-colors, "lightish-grey");
+ 	color: map.get($brand-colors, "lightish-grey");
  }
 
  #volunteer-card {
-   margin: 1% auto !important;
-   width: 98% !important;
+ 	margin: 1% auto !important;
+ 	width: 98% !important;
  }
 
  .volunteer-card {
 
-   .volunteer-card-image {
-     width: 100%;
-     height: 425px;
-     background-position: center;
-     background-size: cover;
-     background-repeat: no-repeat;
-     border-radius: 16px;
-     transition: all .5s ease-in-out;
+ 	.volunteer-card-image {
+ 		width: 100%;
+ 		height: 425px;
+ 		background-position: center;
+ 		background-size: cover;
+ 		background-repeat: no-repeat;
+ 		border-radius: 16px;
+ 		transition: all .5s ease-in-out;
 
-     :hover {
-       transform: scale(1.1);
-     }
-   }
+ 		:hover {
+ 			transform: scale(1.1);
+ 		}
+ 	}
 
-   .volunteer-card-link {
-     a {
-       text-decoration: none;
-       color: map.get($brand-colors, "brown");
+ 	.volunteer-card-link {
+ 		a {
+ 			text-decoration: none;
+ 			color: map.get($brand-colors, "brown");
 
-       .icon {
-         opacity: 0;
-       }
-     }
+ 			.icon {
+ 				opacity: 0;
+ 			}
+ 		}
 
-     a:hover {
-       color: map.get($brand-colors, "brand") !important;
-       transition: all .5s ease-in;
+ 		a:hover {
+ 			color: map.get($brand-colors, "brand") !important;
+ 			transition: all .5s ease-in;
 
-       .icon {
-         opacity: 1;
-       }
-     }
-
-
-
-     a:active {
-       color: map.get($brand-colors, "brand");
+ 			.icon {
+ 				opacity: 1;
+ 			}
+ 		}
 
 
-     }
 
-   }
+ 		a:active {
+ 			color: map.get($brand-colors, "brand");
 
-   #prayer-care {
-     background-image: url(../assets/prayer-care.png);
-   }
 
-   #kids {
-     background-image: url(../assets/kids.png);
-   }
+ 		}
 
-   #students {
-     background-image: url(../assets/students.png);
-   }
+ 	}
 
-   #worship {
-     background-image: url(../assets/worship.png)
-   }
+ 	#prayer-care {
+ 		background-image: url(../assets/prayer-care.png);
+ 	}
 
-   #men {
-     background-image: url(../assets/men.png)
-   }
+ 	#kids {
+ 		background-image: url(../assets/kids.png);
+ 	}
 
-   #women {
-     background-image: url(../assets/women.png)
-   }
+ 	#students {
+ 		background-image: url(../assets/students.png);
+ 	}
 
-   #small-groups {
-     background-image: url(../assets/small-groups.png)
-   }
+ 	#worship {
+ 		background-image: url(../assets/worship.png)
+ 	}
+
+ 	#men {
+ 		background-image: url(../assets/men.png)
+ 	}
+
+ 	#women {
+ 		background-image: url(../assets/women.png)
+ 	}
+
+ 	#small-groups {
+ 		background-image: url(../assets/small-groups.png)
+ 	}
  }
 
  #saved {
-   margin: 0 auto 1% !important;
-   width: 98%;
+ 	margin: 0 auto 1% !important;
+ 	width: 98%;
 
-   .saved-bg {
-     border-radius: 48px;
-     background-color: #2E2320;
-     color: #fff;
-   }
+ 	.saved-bg {
+ 		border-radius: 48px;
+ 		background-color: #2E2320;
+ 		color: #fff;
+ 	}
  }
 
  footer#main {
-   a {
-     text-decoration: none;
-     color: map.get($brand-colors, "brown")
-   }
+ 	a {
+ 		text-decoration: none;
+ 		color: map.get($brand-colors, "brown")
+ 	}
+ }
+
+ body {
+ 	overflow-x: hidden !important;
+ 	width: 99.5vw !important;
+ }
+
+ .texture-right {
+ 	position: absolute;
+ 	top: 2800px;
+ 	right: -200px;
+ 	width: 600px;
+ 	aspect-ratio: 1/1;
+ 	overflow: hidden;
+
+ 	.texture-image {
+ 		opacity: .25;
+ 		background-blend-mode: exclusion;
+ 		background-color: #fff;
+ 		background-image: url('../assets/bg/texture.jpg');
+ 		background-repeat: no-repeat;
+ 		background-size: cover;
+ 		width: 100%;
+ 		aspect-ratio: 1/1;
+
+ 		.texture-gradient {
+ 			width: 100%;
+ 			height: 100%;
+ 			background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+
+ 		}
+ 	}
+ }
+
+ .texture-left {
+ 	position: absolute;
+ 	z-index: -1;
+ 	top: 3500px;
+ 	left: -200px;
+ 	width: 600px;
+ 	aspect-ratio: 1/1;
+ 	overflow: hidden;
+
+ 	.texture-image {
+ 		opacity: .25;
+ 		background-blend-mode: exclusion;
+ 		background-color: #fff;
+ 		background-image: url('../assets/bg/texture.jpg');
+ 		background-repeat: no-repeat;
+ 		background-size: cover;
+ 		width: 100%;
+ 		aspect-ratio: 1/1;
+
+ 		.texture-gradient {
+ 			width: 100%;
+ 			height: 100%;
+ 			background: radial-gradient(circle, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 1) 100%);
+
+ 		}
+ 	}
  }
 
  @include media-breakpoint-down(lg) {
-   nav#main {
-     background-color: map.get($brand-colors, "transparent");
-     border-color: map.get($brand-colors, "transparent");
-   }
+ 	nav#main {
+ 		background-color: map.get($brand-colors, "transparent");
+ 		border-color: map.get($brand-colors, "transparent");
+ 	}
 
-   .navbar-toggler {
-     position: absolute !important;
-     right: 0px !important;
-   }
+ 	.navbar-toggler {
+ 		position: absolute !important;
+ 		right: 0px !important;
+ 	}
 
-   .navbar-nav {
-     background-color: #fff;
-     border-radius: 16px;
-     margin-left: 50%;
-     width: 170px;
+ 	.navbar-nav {
+ 		background-color: #fff;
+ 		border-radius: 16px;
+ 		margin-left: 50%;
+ 		width: 170px;
 
-     li {
-       padding: 10px 30px;
+ 		li {
+ 			padding: 10px 30px;
 
-       a {
-         color: map.get($brand-colors, "brown") !important;
-         width: 100%;
-         text-align: center;
-       }
-     }
-   }
+ 			a {
+ 				color: map.get($brand-colors, "brown") !important;
+ 				width: 100%;
+ 				text-align: center;
+ 			}
+ 		}
+ 	}
 
-   footer#main {
-     margin-left: auto;
-     margin-right: auto;
-   }
+ 	footer#main {
+ 		margin-left: auto;
+ 		margin-right: auto;
+ 	}
  }
 
  @include media-breakpoint-down(md) {
-   .navbar-nav {
-     background-color: #fff;
-     border-radius: 16px;
-     margin-left: 35%;
-     width: 170px;
-   }
+ 	.navbar-nav {
+ 		background-color: #fff;
+ 		border-radius: 16px;
+ 		margin-left: 35%;
+ 		width: 170px;
+ 	}
  }
