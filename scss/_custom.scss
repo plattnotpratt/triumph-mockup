@@ -11,7 +11,7 @@
 
  	margin: 0 !important;
  	padding: 0 !important;
-
+ 	overflow-x: hidden !important;
 
  	h1 {
  		font-family: $text-style;
@@ -347,11 +347,6 @@
  	}
  }
 
- body {
- 	overflow-x: hidden !important;
- 	width: 99.5vw !important;
- }
-
  .texture-right {
  	position: absolute;
  	top: 2800px;
@@ -407,11 +402,20 @@
  	}
  }
 
+
+
+
  @include media-breakpoint-down(lg) {
  	nav#main {
  		background-color: map.get($brand-colors, "transparent");
  		border-color: map.get($brand-colors, "transparent");
  	}
+
+ 	.texture-left,
+ 	.texture-right {
+ 		display: none;
+ 	}
+
 
  	.navbar-toggler {
  		position: absolute !important;

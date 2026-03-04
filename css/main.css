@@ -12693,6 +12693,7 @@ textarea.form-control-lg {
 body {
   margin: 0 !important;
   padding: 0 !important;
+  overflow-x: hidden !important;
 }
 body h1, body .h1 {
   font-family: "Inter", sans-serif;
@@ -12973,11 +12974,6 @@ footer#main a {
   color: #2e2320;
 }
 
-body {
-  overflow-x: hidden !important;
-  width: 99.5vw !important;
-}
-
 .texture-right {
   position: absolute;
   top: 2800px;
@@ -13031,6 +13027,10 @@ body {
   nav#main {
     background-color: rgba(0, 0, 0, 0);
     border-color: rgba(0, 0, 0, 0);
+  }
+  .texture-left,
+  .texture-right {
+    display: none;
   }
   .navbar-toggler {
     position: absolute !important;
